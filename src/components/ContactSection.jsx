@@ -22,8 +22,7 @@ const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          looking for a person  having all these skills? contact
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-1 gap-12 min-h-[60vh]  ">
@@ -41,10 +40,10 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="vasutrehan69@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    vasutrehan69@gmail.com
                   </a>
                 </div>
               </div>
@@ -58,7 +57,7 @@ const ContactSection = () => {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +91 8130230060
                   </a>
                 </div>
               </div>
@@ -69,7 +68,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Faridabad,haryana
                   </a>
                 </div>
               </div>

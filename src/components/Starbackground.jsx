@@ -41,10 +41,11 @@ const Starbackground = () => {
             y :Math.random() * 20,
             delay :Math.random() * 15,
             animationDuration : Math.random() * 3 + 3
+            
 
           })
         }
-         setmeteors(mets);
+         setmeteors(mets);  
     }
   return (
     <div className='fixed overflow-hidden pointer-events-none inset-0 z-0'>

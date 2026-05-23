@@ -2,24 +2,16 @@ import React from 'react'
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "LOCALBIZ",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "hyperlocal business discovery app used to discover local business near you",
+    image:"/src/assets/localbiz.png",
+    tags: ["React-Native", "Expo", "Node.js","express.js","mongoDB"],
+    demoUrl: "https://expo.dev/accounts/vasu_t/projects/localbiz/builds/ffb2bf53-bdba-4605-adb0-b94e56cce269",
+    githubUrl: "https://github.com/vasutrehan/LocalBiz.git",
   },
   {
     id: 3,
@@ -100,7 +92,7 @@ const ProjectSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/vasutrehan"
           >
             Check My Github <ArrowRight size={16} />
           </a>
