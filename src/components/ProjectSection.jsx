@@ -8,7 +8,7 @@ const projects = [
     title: "LOCALBIZ",
     description:
       "hyperlocal business discovery app used to discover local business near you",
-    image:"/src/assets/localbiz.png",
+    image:"/localbiz.png",
     tags: ["React-Native", "Expo", "Node.js","express.js","mongoDB"],
     demoUrl: "https://expo.dev/accounts/vasu_t/projects/localbiz/builds/ffb2bf53-bdba-4605-adb0-b94e56cce269",
     githubUrl: "https://github.com/vasutrehan/LocalBiz.git",

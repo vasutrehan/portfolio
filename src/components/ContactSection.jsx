@@ -1,13 +1,9 @@
 import React from 'react'
 import {
-  instagram,
-  linkedin,
-  mail,
-  mapPin,
-  phone,
-  send,
-  twitch,
-  twitter,
+  Mail,
+  MapPin,
+  Phone,
+  Send,
 } from "lucide-react";
 import util from '../lib/util';
 
@@ -74,23 +70,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <linkedin />
-                </a>
-                <a href="#" target="_blank">
-                  <twitter />
-                </a>
-                <a href="#" target="_blank">
-                  <instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <twitch />
-                </a>
-              </div>
-            </div>
           </div>
 
  
