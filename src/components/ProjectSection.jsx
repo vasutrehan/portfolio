@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Link } from "lucide-react";
 
 const projects = [
 
@@ -79,7 +79,7 @@ const ProjectSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <Link size={20} />
                     </a>
                   </div>
                 </div>

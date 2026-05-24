@@ -1,13 +1,13 @@
 import React from 'react'
 import {
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Send,
-  Twitch,
-  Twitter,
+  instagram,
+  linkedin,
+  mail,
+  mapPin,
+  phone,
+  send,
+  twitch,
+  twitter,
 } from "lucide-react";
 import util from '../lib/util';
 
@@ -49,7 +49,7 @@ const ContactSection = () => {
               </div>
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />{" "}
+                  <phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
                   <h4 className="font-medium"> Phone</h4>
@@ -63,7 +63,7 @@ const ContactSection = () => {
               </div>
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <MapPin className="h-6 w-6 text-primary" />{" "}
+                  <mapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
                   <h4 className="font-medium"> Location</h4>
@@ -78,16 +78,16 @@ const ContactSection = () => {
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
-                  <Linkedin />
+                  <linkedin />
                 </a>
                 <a href="#" target="_blank">
-                  <Twitter />
+                  <twitter />
                 </a>
                 <a href="#" target="_blank">
-                  <Instagram />
+                  <instagram />
                 </a>
                 <a href="#" target="_blank">
-                  <Twitch />
+                  <twitch />
                 </a>
               </div>
             </div>
