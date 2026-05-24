@@ -35,7 +35,7 @@ const ContactSection = () => {
             <div className="flex flex-col space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />{" "}
+                  <mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
                   <h4 className="font-medium"> Email</h4>
