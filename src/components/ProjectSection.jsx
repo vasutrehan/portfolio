@@ -27,9 +27,8 @@ const projects = [
     id: 4,
     title: "SERVICEFLOW",
     description:
-      "A multi-tenant platform to streamline customer management, service requests, staff assignments, and daily business operations — with WhatsApp messaging, automated service reminders, and Razorpay payment collection.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=dashboard%20UI%20of%20a%20service%20business%20management%20SaaS%20platform%20named%20ServiceFlow%2C%20dark%20theme%20interface%20with%20clean%20modern%20cards%20showing%20customer%20list%2C%20service%20requests%2C%20staff%20assignment%20schedule%2C%20revenue%20chart%20and%20payment%20status%20badges%2C%20vibrant%20purple%20and%20blue%20accents%2C%20crisp%20realistic%20product%20screenshot%2C%20high%20detail&image_size=landscape_4_3",
+      "A multi-tenant platform for customer management, service requests, staff assignments, WhatsApp reminders, and Razorpay payments.",
+    image: "/serviceflow.jpg",
     tags: ["React", "Node.js", "MongoDB", "WhatsApp API", "Razorpay"],
     demoUrl: "https://serviceflow-lovat.vercel.app/",
     githubUrl: "",
