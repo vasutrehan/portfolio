@@ -15,13 +15,24 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "NOVA MEET",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A real-time video conferencing web app with room-based meetings, live chat, and seamless peer-to-peer communication.",
+    image: "/novameet.png",
+    tags: ["React", "WebRTC", "Socket.io", "Node.js"],
+    demoUrl: "https://nova-meet-619stzy2d-vasu-trehans-projects.vercel.app",
+    githubUrl: "https://github.com/vasutrehan",
+  },
+  {
+    id: 4,
+    title: "SERVICEFLOW",
+    description:
+      "A multi-tenant platform to streamline customer management, service requests, staff assignments, and daily business operations — with WhatsApp messaging, automated service reminders, and Razorpay payment collection.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=dashboard%20UI%20of%20a%20service%20business%20management%20SaaS%20platform%20named%20ServiceFlow%2C%20dark%20theme%20interface%20with%20clean%20modern%20cards%20showing%20customer%20list%2C%20service%20requests%2C%20staff%20assignment%20schedule%2C%20revenue%20chart%20and%20payment%20status%20badges%2C%20vibrant%20purple%20and%20blue%20accents%2C%20crisp%20realistic%20product%20screenshot%2C%20high%20detail&image_size=landscape_4_3",
+    tags: ["React", "Node.js", "MongoDB", "WhatsApp API", "Razorpay"],
+    demoUrl: "https://serviceflow-lovat.vercel.app/",
+    githubUrl: "",
   },
 ];
 const ProjectSection = () => {
@@ -74,13 +85,15 @@ const ProjectSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Link size={20} />
-                    </a>
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <Link size={20} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
